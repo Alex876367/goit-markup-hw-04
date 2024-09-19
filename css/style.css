@@ -447,6 +447,8 @@ p{
 
   .portfolio-section-first{
     width: calc((100% - 48px) / 3);
+
+    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
   .benefits-class-strategy{
@@ -474,8 +476,28 @@ p{
     color:#4d5ae5;
 
     margin-bottom: 16px;
+}
 
-   
+.images-container{
+    position: relative;
+    overflow: hidden;
+}
 
+.paragraf-images{
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    height: 100%;
+    width: 100%;
+    transform: translateY(100%);
+    transform: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 
+.images-container:hover,.paragraf-images{
+    transform: translateY(0%);
 }
