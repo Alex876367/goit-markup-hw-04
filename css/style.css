@@ -287,7 +287,6 @@ p{
 
     padding-top: 100px;
     padding-bottom: 100px;
-
     
 }
 
@@ -310,7 +309,10 @@ p{
 
 .paragraf-container{
     display: block;
-    align-content: flex-start
+    align-content: flex-start;
+    margin-right: 120px;
+    
+    
 
 }
 
@@ -564,7 +566,55 @@ p{
 
 .third-section-svg{
     fill:#f4f4fd;
+}
+
+
+.footer-paragraph{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+    margin-bottom: 16px;
 
 
 
 }
+
+.footer-1{
+    display:flex;
+}
+
+.social-footer{
+    display: flex;
+    gap: 16px;
+}
+
+.social-footer-1{
+    width: 40px;
+    height: 40px;
+}
+
+.social-footer-a{
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius:50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-footer-a:hover{
+    background-color: #31d0aa;
+}
+
+.social-footer-a:focus{
+    background-color: #31d0aa;
+}
+
+.svg-a-container{
+    fill:#f4f4fd;
+
+}
+
