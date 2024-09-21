@@ -20,9 +20,7 @@ body{
     padding-bottom: 24px;
     padding-top: 24px;
 
-    position: relative;
-    color: #404bbf;
-    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    
 }
 
 .spa{
@@ -69,10 +67,12 @@ ul{
 
     padding-top: 24px;
     padding-bottom: 24px;
-    display:block
+    display:block;
 
-    
-   
+    position: relative;
+    color: #404bbf;
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+ 
 }
 
 .cla:hover{
@@ -81,6 +81,19 @@ ul{
 
 .cla:focus{
     color: #404bbf;
+}
+
+.cla::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+
+
 }
 
 
@@ -95,6 +108,8 @@ ul{
     justify-content:flex-end;
 
     margin-left: 332px;
+    
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
     
 
