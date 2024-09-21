@@ -309,15 +309,7 @@ p{
     
 }
 
-.paragraf-container{
-    display: block;
-    align-content: flex-start;
-    
-    margin-right: 120px;
 
-
-    
-}
 
 
 
@@ -631,8 +623,10 @@ p{
 .container-1{
 
     max-width: 1158px ;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: 182px;
+    margin-left: 196px;
+    display: block;
+    align-content: flex-start;
+
+    margin-right: 120px;
    
 }
