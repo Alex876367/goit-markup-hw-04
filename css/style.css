@@ -288,8 +288,7 @@ p{
     padding-top: 100px;
     padding-bottom: 100px;
 
-    display:flex;
-    align-items: baseline;
+ 
     
 }
 
@@ -315,10 +314,7 @@ p{
     align-content: flex-start;
     margin-right: 120px;
 
-    max-width: 1158px ;
-   
 
-    margin-left: 156px;
     
 }
 
@@ -336,8 +332,7 @@ p{
     max-width: 1158px ;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 
@@ -625,3 +620,16 @@ p{
 }
 
 
+.div-container{
+   display: flex;
+   align-items: baseline;
+}
+
+.container-1{
+
+    max-width: 1158px ;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 182px;
+   
+}
