@@ -584,18 +584,7 @@ p{
 }
 
 
-.footer-paragraph{
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
-    color:#FFFFFF;
 
-    margin-bottom: 16px;
-
-
-
-}
 
 .footer-1{
     display:flex;
@@ -639,11 +628,7 @@ p{
 .div-container{
    display: flex;
    align-items: baseline;
-   max-width: 1158px;
-   margin: 0 auto;
-   padding-left: 15px;
-   padding-right: 15px;
-
+   
 }
 
 .container-div{
@@ -653,4 +638,15 @@ p{
     margin-right: 120px;
     
    
+}
+
+.footer-paragraph{
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:#FFFFFF;
+
+    margin-bottom: 16px;
 }
