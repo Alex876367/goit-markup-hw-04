@@ -639,15 +639,18 @@ p{
 .div-container{
    display: flex;
    align-items: baseline;
+   max-width: 1158px;
+   margin: 0 auto;
+   padding-left: 15px;
+   padding-right: 15px;
+
 }
 
 .container-div{
 
-    max-width: 1158px ;
-    margin: 0 auto;
     display: block;
     align-content: flex-start;
-    
     margin-right: 120px;
+    
    
 }
